@@ -1,5 +1,5 @@
 {% set name = "taipy-templates" %}
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/taipy-templates-{{ version }}.tar.gz
-  sha256: 45e1f8a1129d78801f7708aa818681f06e8ddea0bceaf6b8247e837558cf9a3a
+  sha256: efd571f6f1e1ad73737667acbf47740a076b2ba945595e898adb6d65010b1839
 
 build:
   noarch: python
